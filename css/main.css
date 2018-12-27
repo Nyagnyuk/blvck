@@ -510,7 +510,7 @@ body {
   line-height: 24px; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #4c4c4c;
+  color: #fff;
   font-family: "Theano Didot";
   margin: 0;
   padding: 0; }
@@ -526,8 +526,8 @@ h2 {
   font-weight: 200; }
 
 h3 {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 25px;
+  line-height: 30px;
   font-weight: 600; }
 
 h4 {
@@ -989,8 +989,68 @@ body {
 .header {
   padding: 15px 0;
   position: relative; }
-  .header:after {
-    border-bottom: 1px solid #d2a64a;
-    position: absolute;
-    bottom: -2px;
-    content: ''; }
+  .header-wrapper {
+    border-bottom: 1px solid #d2a64a; }
+
+.baner {
+  background: #000 url("../img/baner.jpg") no-repeat center;
+  height: 975px;
+  background-size: cover; }
+
+.product-titles-wrap {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.title {
+  color: #d2a64a;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden; }
+  .title:before, .title:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    content: '';
+    height: 1px;
+    background: #d2a64a;
+    position: relative;
+    top: -3px; }
+  .title:before {
+    margin-left: -100%;
+    left: -25px; }
+  .title:after {
+    margin-right: -100%;
+    right: -25px; }
+
+.panel-title {
+  color: #ffffff;
+  font-family: "Theano Didot";
+  font-size: 12px;
+  font-weight: 400; }
+
+.reviews {
+  padding: 15px 0; }
+
+.faq {
+  padding: 15px 0; }
+  .faq .title {
+    margin-bottom: 50px; }
+  .faq-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .faq-wrapper > div {
+      font-size: 25px; }
+  .faq-line {
+    border-right: 1px solid #d2a64a;
+    width: 36%; }
+    .faq-line > div {
+      padding: 30px 30px 30px 15px;
+      text-decoration: underline; }
+  .faq-descr {
+    width: 54%; }
+    .faq-descr > div {
+      padding: 30px; }

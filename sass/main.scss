@@ -13,11 +13,82 @@
 .header{
         padding: 15px 0;
         position: relative;
-        &:after{
-                border-bottom: 1px solid #d2a64a;
-                position: absolute;
-                bottom: -2px;
-                content: '';
+        &-wrapper{
+                border-bottom: 1px solid $default;
+        }
+}
 
+.baner{
+        background: #000 url('../img/baner.jpg')no-repeat center;
+        height: 975px;
+        -webkit-background-size: cover;
+        background-size: cover;
+}
+
+.product-titles{
+        &-wrap{
+                padding-left: 15px;
+                padding-right: 15px;
+        }
+}
+.title{
+        color: $default;
+        text-transform: uppercase;
+        text-align: center;
+        overflow: hidden;
+        &:before, &:after{
+                content: '';
+                display: inline-block;
+                vertical-align: middle;
+                width: 100%;
+                content: '';
+                height: 1px;
+                background: $default;
+                position: relative;
+                top: -3px;
+        }
+        &:before{
+                margin-left: -100%;
+                left: -25px;
+        }
+        &:after{
+                margin-right: -100%;
+                right: -25px;
+        }
+}
+.panel-title{
+        color: #ffffff;
+        font-family: $mainFont;
+        font-size: 12px;
+        font-weight: 400;
+}
+.reviews{
+        padding: 15px 0;
+}
+.faq{
+        padding: 15px 0;
+        .title{
+                margin-bottom: 50px;
+        }
+        &-wrapper{
+                display: flex;
+                flex-wrap: wrap;
+                &>div{
+                        font-size: 25px;
+                }
+        }
+        &-line{
+                border-right: 1px solid $default;
+                width: 36%;
+                &>div{
+                        padding: 30px 30px 30px 15px;
+                        text-decoration: underline;
+                }
+        }
+        &-descr{
+                width: 54%;
+                &>div{
+                        padding: 30px;
+                }
         }
 }
