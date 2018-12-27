@@ -1,0 +1,39 @@
+https://www.fonts-online.ru/font/Theano-Didot  (в папке есть я кинул просто установить)
+Он везде 1. Только внимательно где то он подчеркнут, где то жирным, где то под наклоном
+
+
+<style>
+	#form-submit {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	}
+	#processing-block{		
+	    flex: 0 0 30%;
+	    order: 4;
+	}
+	#processing-block img{
+		margin: 0 auto;
+	    display: block;
+	}
+	#igejc {
+	flex-grow: 1;
+	}
+	#iqjho{
+		flex-grow: 1;
+	}
+	#if7fj{
+		flex-grow: 1;
+	}
+	@media only screen and (max-width: 767px){
+		#processing-block{		
+	    	flex: 0 0 100%;
+	    }
+	    #if7fj{
+	    	margin-top: 15px;
+	    }
+	}
+</style>
+
+
+@media only screen and (max-width: 767px) {

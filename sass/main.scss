@@ -1,0 +1,23 @@
+@import 'sprite.scss',
+        'normalize&reset.scss',
+        'fonts.scss',
+        'variables.scss',
+        'mixins&includes.scss',
+        'typography.scss',
+        'forms.scss',
+        'layout.scss';
+
+//----------------------------------------------------//
+// MAIN 						 				      //
+//----------------------------------------------------//
+.header{
+        padding: 15px 0;
+        position: relative;
+        &:after{
+                border-bottom: 1px solid #d2a64a;
+                position: absolute;
+                bottom: -2px;
+                content: '';
+
+        }
+}
