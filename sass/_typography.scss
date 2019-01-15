@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 600;
 }
@@ -78,7 +78,7 @@ b {
 }
 
 a {
-  color: #354fc1;
+  color: $default;
   transition: all .3s ease-in-out;
   text-decoration: none;
   &.button {
@@ -92,6 +92,7 @@ a {
 a:hover {
   text-decoration: none;
   opacity: .8;
+  color: $default;
 }
 
 a:active {
