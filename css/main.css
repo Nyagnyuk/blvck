@@ -1105,6 +1105,9 @@ body {
         .header-basket a {
           width: 40px; } }
 
+body.no-scroll {
+  overflow: hidden; }
+
 .burger-button {
   display: none; }
   @media (max-width: 767px) {

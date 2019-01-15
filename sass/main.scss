@@ -144,7 +144,9 @@
     }
   }
 }
-
+body.no-scroll {
+  overflow: hidden;
+}
 .burger-button{
   display: none;
   @include b (phablet){
